@@ -25,9 +25,9 @@ jobs:
         with:
           repository: fmillone/web-resume-data
           path: data
-          token: ${secrets.PAT_REPOS}
+          token: ${{secrets.PAT_REPOS}}
         env: 
-          PAT_REPOS: ${{ secrets.PAT_REPOS }}
+          PAT_REPOS: ${{secrets.PAT_REPOS}}
 
       # Runs a single command using the runners shell
       - name: copy files to repo
