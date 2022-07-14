@@ -49,4 +49,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REACT_APP_TITLE: "Francisco Millone"
+          REACT_APP_ANALYTICS_KEY: ${{ secrets.G_ANALYTICS_KEY }}
         
